@@ -1,0 +1,41 @@
+Water Quality Data Exploratory Analysis
+=======================================
+
+Dataset shape: (1603, 4)
+Date range: 2014-10-01 00:00:00 to 2019-02-19 00:00:00
+Total samples: 1603
+
+Parameter Statistics
+-------------------
+
+Temperature:
+  Mean: 17.83
+  Std: 6.43
+  Min: 2.46
+  Max: 27.64
+
+Ph:
+  Mean: 7.06
+  Std: 0.09
+  Min: 6.70
+  Max: 7.29
+
+Dissolved_oxygen:
+  Mean: 8.01
+  Std: 1.59
+  Min: 5.60
+  Max: 12.37
+
+Turbidity:
+  Mean: 27.35
+  Std: 16.60
+  Min: 7.09
+  Max: 133.61
+
+Correlation Matrix
+-----------------
+                  temperature  dissolved_oxygen        pH  turbidity
+temperature          1.000000         -0.978681 -0.305689   0.093446
+dissolved_oxygen    -0.978681          1.000000  0.323355  -0.100376
+pH                  -0.305689          0.323355  1.000000  -0.516568
+turbidity            0.093446         -0.100376 -0.516568   1.000000

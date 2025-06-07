@@ -1,0 +1,6 @@
+Temperature LSTM Model Test Results
+Sequence Length: 10
+
+RMSE: 1.0429
+MAE: 0.7893
+R²: 0.9740

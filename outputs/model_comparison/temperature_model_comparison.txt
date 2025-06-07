@@ -1,0 +1,12 @@
+Model Performance Comparison for Temperature
+==================================================
+
+Metric      | ARIMA Model | LSTM Model | Improvement (%)
+------------------------------------------------------------
+MAE         | 6.0640      | 0.7893      |  86.98%
+MSE         | 43.7636     | 1.0429      |  97.62%
+RMSE        | 6.6154      | 1.0429      |  84.24%
+R²          | N/A         | 0.9740      |    N/A
+
+Note: For error metrics (RMSE, MAE, MSE), lower values indicate better performance.
+      For R², higher values indicate better performance (1.0 is perfect prediction).

@@ -1,0 +1,5 @@
+ARIMA Model Test Results for dissolved_oxygen
+Order: (1, 1, 1)
+Test MSE: 2.6450
+Test RMSE: 1.6264
+Test MAE: 1.4744

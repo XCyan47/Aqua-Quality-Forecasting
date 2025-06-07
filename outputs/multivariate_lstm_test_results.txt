@@ -1,0 +1,18 @@
+Multivariate LSTM Model Test Results
+Sequence Length: 10
+
+Temperature:
+  RMSE: 1.0429
+  MAE: 0.7893
+  R²: 0.9740
+
+Dissolved_oxygen:
+  RMSE: 0.2790
+  MAE: 0.2107
+  R²: 0.9699
+
+Ph:
+  RMSE: 0.0585
+  MAE: 0.0446
+  R²: 0.6675
+

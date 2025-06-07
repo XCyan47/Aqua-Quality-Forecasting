@@ -1,0 +1,5 @@
+ARIMA Model Test Results for pH
+Order: (1, 1, 1)
+Test MSE: 0.0238
+Test RMSE: 0.1542
+Test MAE: 0.1259

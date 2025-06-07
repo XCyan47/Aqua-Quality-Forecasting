@@ -1,0 +1,6 @@
+Dissolved_oxygen LSTM Model Test Results
+Sequence Length: 10
+
+RMSE: 0.2790
+MAE: 0.2107
+R²: 0.9699

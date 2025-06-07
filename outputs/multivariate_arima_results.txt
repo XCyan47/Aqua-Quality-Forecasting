@@ -1,0 +1,29 @@
+Multivariate ARIMA Model Results
+
+Temperature:
+  Order: (1, 1, 1)
+  AIC: 2947.64
+  BIC: 2963.11
+  Training RMSE: 0.9679
+  Training MAE: 0.5733
+  Test RMSE: 6.6154
+  Test MAE: 6.0640
+
+Dissolved_oxygen:
+  Order: (1, 1, 1)
+  AIC: -209.34
+  BIC: -193.88
+  Training RMSE: 0.2942
+  Training MAE: 0.1679
+  Test RMSE: 1.6264
+  Test MAE: 1.4744
+
+Ph:
+  Order: (1, 1, 1)
+  AIC: -4308.74
+  BIC: -4293.28
+  Training RMSE: 0.2008
+  Training MAE: 0.0371
+  Test RMSE: 0.1542
+  Test MAE: 0.1259
+

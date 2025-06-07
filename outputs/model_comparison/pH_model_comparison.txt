@@ -1,0 +1,12 @@
+Model Performance Comparison for Ph
+==================================================
+
+Metric      | ARIMA Model | LSTM Model | Improvement (%)
+------------------------------------------------------------
+MAE         | 0.1259      | 0.0446      |  64.58%
+MSE         | 0.0238      | 0.0585      | -145.80%
+RMSE        | 0.1542      | 0.0585      |  62.06%
+R²          | N/A         | 0.6675      |    N/A
+
+Note: For error metrics (RMSE, MAE, MSE), lower values indicate better performance.
+      For R², higher values indicate better performance (1.0 is perfect prediction).

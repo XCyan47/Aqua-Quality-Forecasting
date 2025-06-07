@@ -1,0 +1,6 @@
+Ph LSTM Model Test Results
+Sequence Length: 10
+
+RMSE: 0.0585
+MAE: 0.0446
+R²: 0.6675

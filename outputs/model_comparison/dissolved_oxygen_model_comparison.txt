@@ -1,0 +1,12 @@
+Model Performance Comparison for Dissolved_oxygen
+==================================================
+
+Metric      | ARIMA Model | LSTM Model | Improvement (%)
+------------------------------------------------------------
+MAE         | 1.4744      | 0.2107      |  85.71%
+MSE         | 2.6450      | 0.2790      |  89.45%
+RMSE        | 1.6264      | 0.2790      |  82.85%
+R²          | N/A         | 0.9699      |    N/A
+
+Note: For error metrics (RMSE, MAE, MSE), lower values indicate better performance.
+      For R², higher values indicate better performance (1.0 is perfect prediction).

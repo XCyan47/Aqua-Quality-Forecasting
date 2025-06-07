@@ -1,0 +1,5 @@
+ARIMA Model Test Results for temperature
+Order: (1, 1, 1)
+Test MSE: 43.7636
+Test RMSE: 6.6154
+Test MAE: 6.0640

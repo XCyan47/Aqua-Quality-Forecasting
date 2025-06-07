@@ -1,0 +1,71 @@
+Comprehensive Model Performance Comparison
+========================================
+
+This file summarizes the performance comparison between ARIMA and LSTM models
+for predicting multiple water quality parameters.
+
+OVERVIEW
+--------
+The comparison analyzes the following water quality parameters:
+- Temperature
+- Dissolved_oxygen
+- Ph
+
+Key findings:
+- Overall, LSTM models show an average of 76.38% improvement in RMSE over ARIMA models.
+- The most significant improvement is seen in Temperature prediction, with a 84.24% reduction in RMSE.
+- LSTM achieves high R² values (coefficient of determination) for temperature and dissolved oxygen predictions.
+
+DETAILED COMPARISON BY PARAMETER
+--------------------------------
+
+Temperature:
+------------
+Metric      | ARIMA Model | LSTM Model | Improvement (%)
+------------------------------------------------------------
+MAE         | 6.0640      | 0.7893      |  86.98%
+MSE         | 43.7636     | 1.0429      |  97.62%
+RMSE        | 6.6154      | 1.0429      |  84.24%
+R²          | N/A         | 0.9740      |    N/A
+
+Interpretation:
+- The LSTM model vastly outperforms the ARIMA model for temperature prediction, with a 84.24% reduction in RMSE.
+- The LSTM model achieves excellent predictive performance with an R² of 0.9740, explaining 97.4% of the variance in the data.
+
+Dissolved_oxygen:
+-----------------
+Metric      | ARIMA Model | LSTM Model | Improvement (%)
+------------------------------------------------------------
+MAE         | 1.4744      | 0.2107      |  85.71%
+MSE         | 2.6450      | 0.2790      |  89.45%
+RMSE        | 1.6264      | 0.2790      |  82.85%
+R²          | N/A         | 0.9699      |    N/A
+
+Interpretation:
+- The LSTM model vastly outperforms the ARIMA model for dissolved_oxygen prediction, with a 82.85% reduction in RMSE.
+- The LSTM model achieves excellent predictive performance with an R² of 0.9699, explaining 97.0% of the variance in the data.
+
+Ph:
+---
+Metric      | ARIMA Model | LSTM Model | Improvement (%)
+------------------------------------------------------------
+MAE         | 0.1259      | 0.0446      |  64.58%
+MSE         | 0.0238      | 0.0585      | -145.80%
+RMSE        | 0.1542      | 0.0585      |  62.06%
+R²          | N/A         | 0.6675      |    N/A
+
+Interpretation:
+- The LSTM model significantly outperforms the ARIMA model for pH prediction, with a 62.06% reduction in RMSE.
+- The LSTM model achieves moderate predictive performance with an R² of 0.6675, explaining 66.8% of the variance in the data.
+
+
+CONCLUSION
+----------
+The comparative analysis clearly demonstrates that LSTM models provide superior forecasting performance
+for water quality parameters compared to traditional ARIMA models. The improvement is most pronounced
+for temperature and dissolved oxygen predictions, where the LSTM model achieves both high accuracy
+(low RMSE) and excellent explanatory power (high R²).
+
+While ARIMA models provide a solid baseline and are computationally less demanding, the significant
+performance improvements offered by LSTM models justify their adoption for water quality forecasting
+applications where high accuracy is required.
